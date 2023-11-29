@@ -21,7 +21,7 @@
     line-height: 75px;
 }
 
-.gpt3__footer-btn {
+.gpt3__footer-btn p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,14 +32,17 @@
 
     margin-bottom: 10rem;
     cursor: pointer;
-}
-
-.gpt3__footer-btn p {
     font-size: 18px;
     font-family: var(--font-family);
     line-height: 21px;
     color: #fff;
     word-spacing: 2px;
+    transition: all 0.3s;
+}
+
+.gpt3__footer-btn p:hover {
+    background-color: #fff;
+    color: var(--color-footer);
 }
 
 .gpt3__footer-links {
